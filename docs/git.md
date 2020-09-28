@@ -1,6 +1,6 @@
 ## Configuración 
 
-![](img/gitconfig.png)
+![](img/gitconfig2.png)
 
 ## SSH
 
