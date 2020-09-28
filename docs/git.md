@@ -1,4 +1,4 @@
-## Parámetros básicos
+## Configuración 
 
 ![](img/gitconfig.png)
 
