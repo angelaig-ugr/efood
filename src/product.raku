@@ -71,9 +71,12 @@ my @allergens  = $product.gallergens ;
 my @supermarkets = $product.gsupermarkets ;
 my @prices = $product.gprices ;
 
-say 'Nombre :----> ' , $product.gname ;
-say 'Categoria:--------> ', $product.gcategory ;
-say 'Codigo de barras :-------> ', $product.gbarcode ;
+say $product.gname ;
+say $product.gcategory ;
+say $product.gbarcode ;
+
+for @supermarkets { .say }
+@supermarkets.map: *.say;
 
 
 
