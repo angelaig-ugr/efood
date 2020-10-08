@@ -19,7 +19,8 @@ API web para consultar los distintos productos que hay en un supermercado, permi
 
 ### Subenlaces
 - [Configuración inicial](docs/git.md)
-- [Raku](docs/herramientas.md)
+- [Motivos para usar Raku](docs/herramientas.md)
+- [Documentación sobre Raku](https://github.com/Raku/Documentable)
 
 
 
