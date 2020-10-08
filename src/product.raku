@@ -75,9 +75,8 @@ say $product.gname ;
 say $product.gcategory ;
 say $product.gbarcode ;
 
-for $product.gsupermarkets {
-     .say;
-} 
+for @supermarkets { .say }
+@supermarkets.map: *.say;
 
 
 
