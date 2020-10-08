@@ -13,7 +13,7 @@ API web para consultar los distintos productos que hay en un supermercado, permi
 
 ## Herramientas
 
-- Lenguaje: Javascript
+- Lenguaje: Raku 
 
 ### Subenlaces
 - [Configuración inicial](docs/git.md)
