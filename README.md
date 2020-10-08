@@ -17,7 +17,7 @@ API web para consultar los distintos productos que hay en un supermercado, permi
 
 ### Subenlaces
 - [Configuración inicial](docs/git.md)
-- [JavaScript](docs/herramientas.md)
+- [Raku](docs/herramientas.md)
 
 
 
