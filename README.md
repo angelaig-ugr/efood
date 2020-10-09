@@ -16,7 +16,7 @@ En mi proyecto , el elemento principal es el [producto a consultar](https://gith
 
 Considerando los requerimientos de mi proyecto y sus características ,creo que  más adelante seguramente deba hacer uso de una **base de datos** para poder realizar los servicios y proporcionar la información que el cliente requiere . Servirá como almacenamiento y también 
 
-Además , ·efood" también realizará **operaciones de cálculo** como son el cálculo del precio/kg de un producto ( para poder comparar más fácilmente los precios ), el cálculo del aporte de proteínas / kcal . etc . Por ello, no descarto implementar algunas partes del proyecto en otros lenguajes si así lo requiriese.
+Además , "efood" también realizará **operaciones de cálculo** como son el cálculo del precio/kg de un producto ( para poder comparar más fácilmente los precios ), el cálculo del aporte de proteínas / kcal . etc . Por ello, no descarto implementar algunas partes del proyecto en otros lenguajes si así lo requiriese.
 
 ## Herramientas
 
