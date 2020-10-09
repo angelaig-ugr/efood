@@ -15,7 +15,7 @@ API web para consultar los distintos productos que hay en un supermercado, permi
 - Lenguaje: Raku 
 
 ## Planteamientos sobre el proyecto
-En mi proyecto , el elemento principal es el producto a consultar . Este producto tendrá una serie de atributos que me ayudará a conseguir mis objetivos, que el cliente pueda elegir el supermercado o producto que más le convenga a su bolsillo o salud ,  poder localizar si en tal supermercado existe dicho producto,etc .
+En mi proyecto , el elemento principal es el [producto a consultar](https://github.com/angelaig-ugr/efood/blob/master/src/product.raku) . Este producto tendrá una serie de atributos que me ayudará a conseguir mis objetivos, que el cliente pueda elegir el supermercado o producto que más le convenga a su bolsillo o salud ,  poder localizar si en tal supermercado existe dicho producto,etc .
 
 Considerando los requerimientos de mi proyecto y sus características ,creo que  más adelante seguramente deba hacer uso de una **base de datos** para poder realizar los servicios y proporcionar la información que el cliente requiere . Servirá como almacenamiento y también 
 
