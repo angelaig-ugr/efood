@@ -1,3 +1,3 @@
 
-
+## Elección lenguaje de programación 
 He decidido utilizar Raku ya que es uno de los lenguajes de programación que no conozco y de los que se ha recomendado en la asignatura, que además puede servir para facilitar el aprendizaje de otros lenguajes . Antes de ello, comencé parte en Javascript pero decidí cambiar para contribuir a la originalidad de mi proyecto. 
