@@ -23,6 +23,10 @@ Además , ·efood" también realizará operaciones de cálculo como son el cálc
 
 ## [Documentación](https://github.com/angelaig-ugr/efood/tree/master/docs)
 
+## Historial de issues y milestones 
+-[Issues](https://github.com/angelaig-ugr/efood/issues)
+-[Milestones](https://github.com/angelaig-ugr/efood/milestones)
+
 ## Historias de usuario 
 - [HU1](https://github.com/angelaig-ugr/efood/issues/11)
 - [HU2](https://github.com/angelaig-ugr/efood/issues/3)
