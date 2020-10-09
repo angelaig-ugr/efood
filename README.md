@@ -21,6 +21,8 @@ Considerando los requerimientos de mi proyecto y sus características ,creo que 
 
 Además , ·efood" también realizará operaciones de cálculo como son el cálculo del precio/kg de un producto ( para poder comparar más fácilmente los precios ), el cálculo del aporte de proteínas / kcal . etc . Por ello, no descarto implementar algunas partes del proyecto en otros lenguajes si así lo requiriese.
 
+## [Documentación](https://github.com/angelaig-ugr/efood/tree/master/docs)
+
 ## Historias de usuario 
 - [HU1](https://github.com/angelaig-ugr/efood/issues/11)
 - [HU2](https://github.com/angelaig-ugr/efood/issues/3)
