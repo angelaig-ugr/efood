@@ -1,4 +1,4 @@
-## Configuración 
+## Configuración inicial git 
 
 ![](img/gitconfig2.png)
 
