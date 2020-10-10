@@ -1,5 +1,9 @@
+use v6.d;
 
-class Product {
+
+class Product  {
+
+
 	has Str $.name;
 	has Str $.category ;
 	has Str @!allergens ;
@@ -19,18 +23,7 @@ class Product {
 		$!barcode =$barcode
   	  }
 
-	method gname  {
-		return $!name ;
-		
-		
-	}
-
-	method gcategory   {
-		return $!category ;
-		
-		
-	}
-
+	
 
 	method gallergens {
 		return @!allergens.pick;
@@ -54,29 +47,19 @@ class Product {
 		
 		
 	}
-	method gbarcode {
-		return $!barcode;
-		
-		
-	}
+	
 }
 
-# Create a product object
-
 my $product = Product.new(:name('alpro yogurt'),:category('food'),:allergens(['soy']), :supermarkets(['Mercadona','hipercor','supersol']),:prices(['2','1.7']),:barcode('1239483232'));
-
-
 
 my @allergens  = $product.gallergens ;
 my @supermarkets = $product.gsupermarkets ;
 my @prices = $product.gprices ;
 
-say $product.gname ;
-say $product.gcategory ;
-say $product.gbarcode ;
+say $product.name ;
+say $product.category ;
+say $product.barcode ;
 
 for @supermarkets { .say }
 @supermarkets.map: *.say;
-
-
 
