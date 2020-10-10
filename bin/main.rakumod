@@ -1,6 +1,7 @@
 use v6.d;
 use Product ;
 
+## raku -Ilib bin/main.rakumod
 
 # Create a product object
 
