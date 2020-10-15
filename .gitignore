@@ -5,6 +5,7 @@
 
 
 .precomp
+./lib/efood/.precomp 
 
 # compiled output
 /dist
