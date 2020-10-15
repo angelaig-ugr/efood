@@ -33,11 +33,38 @@ subtest {
 },"Product object instantiation";
 
 subtest {
-    plan 1;
-
+    plan 12;
     my $product = Product.new();
-    #$product.name = "NAME";
-    is($product.name, "empty", "name attribute set");
+    
+    #Test default value is correct
+    is($product.name, "empty", "default name attribute");
+    is($product.category, "empty", "default category attribute");	
+    is($product.allergens, "<empty>", "default allergens attribute");	
+    is($product.supermarkets, "<empty>", "default supermarkets attribute");	
+    is($product.prices, "<empty>", "default prices attribute");	
+    is($product.barcode, "empty", "default barcode attribute");	
+
+    #Test the set methods work well 
+
+    $product.set-name("NAME-CHANGED") ;
+    is($product.name, "NAME-CHANGED", "name attribute changed");
+
+    $product.set-category("CATEGORY-CHANGED") ;
+    is($product.category, "CATEGORY-CHANGED", "category attribute changed");
+
+    $product.set-allergens(["ALLERGENS1-CHANGED","ALLERGENS2-CHANGED"]) ;
+    is($product.allergens,[ "ALLERGENS1-CHANGED","ALLERGENS2-CHANGED"], "allergens attribute changed");
+
+ 
+    $product.set-supermarkets(["SUPERMARKETS1-CHANGED","SUPERMARKETS2-CHANGED"]) ;
+    is($product.supermarkets, ["SUPERMARKETS1-CHANGED","SUPERMARKETS2-CHANGED"], "supermarkets attribute changed");
+
+    $product.set-prices(["PRICES1-CHANGED","PRICES2-CHANGED"]) ;
+    is($product.prices, ["PRICES1-CHANGED","PRICES2-CHANGED"], "prices attribute changed");
+
+    $product.set-barcode("BARCODE-CHANGED") ;
+    is($product.barcode, "BARCODE-CHANGED", "barcode attribute changed");
+	
 
    
 
