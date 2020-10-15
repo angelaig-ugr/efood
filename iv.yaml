@@ -1,1 +1,4 @@
 entidad: lib/Product.rakumod
+lenguaje: raku
+test: t/test.t
+taskfile: Akefile
