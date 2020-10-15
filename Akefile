@@ -1,0 +1,21 @@
+
+
+task 'all'=>< install-module  run-test> ;
+
+
+task 'install-module' ,{
+	shell "zef install . --force-install --force-test"
+
+
+}
+
+task 'run-test' , {
+	shell "raku t/test.t"
+
+}
+
+
+
+
+
+
