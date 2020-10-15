@@ -1,4 +1,4 @@
-entidad: lib/Product.rakumod
+entidad: lib/efood/Product.rakumod
 lenguaje: raku
 test: t/test.t
 taskfile: Akefile
