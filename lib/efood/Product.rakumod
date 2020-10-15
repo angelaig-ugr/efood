@@ -27,28 +27,6 @@ class Product is export {
 
 	
 
-	method get-allergens {
-		return @!allergens.pick;
-		
-		
-	}	
-
-
-	method get-supermarkets {
-		return @!supermarkets.pick;
-		
-		
-	}
-	method get-nsupermarkets {
-		return @!supermarkets.elems;
-		
-		
-	}
-	method get-prices {
-		return @!prices.pick;
-		
-		
-	}
 	
 
 	#Set methods ------------------------------
