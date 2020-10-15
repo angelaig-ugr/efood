@@ -1,0 +1,23 @@
+{
+    "perl" : "6.*",
+    "name" : "efood",
+    "api"  : "1",
+    "auth" : "github:angelaig-ugr",
+    "version" : "0.0.1",
+    "description" : "Proyecto de la asignatura Infraestructura Virtual",
+    "authors" : [ "Ángela Izquierdo García" ],
+    "license" : "GPL-3.0-or-later",
+    "provides" : {
+        "efood::Product " : "lib/efood/Product.rakumod"
+    },
+    "depends" : [ ],
+    "build-depends" : [ ],
+    "test-depends" : ["Test"],
+    "resources" : [ ],
+    "tags": [
+     
+    ],
+    "source-url" : "git://github.com/angelaig-ugr/efood"
+
+}
+
