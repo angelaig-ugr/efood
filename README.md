@@ -38,6 +38,32 @@ Además , "efood" también realizará **operaciones de cálculo** como son el c�
 ## Fichero iv.yaml
 - [iv.yaml](https://github.com/angelaig-ugr/efood/blob/master/iv.yaml)
 
+## Instalación y ejecución 
+Para poder instalar , testear y ejecutar el código de este repositorio , debemos seguir los siguientes pasos :
+
+####Instalación de rakudo (incluye zef) 
+```
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 379CE192D401AB61
+$ echo "deb https://dl.bintray.com/nxadm/rakudo-pkg-debs `lsb_release -cs` main" | sudo tee -a /etc/apt/sources.list.d/rakudo-pkg.list
+$ sudo apt-get update && sudo apt-get install rakudo-pkg
+```
+
+- En la terminal de trabajo introducir este comando : (variable de entorno para que funcione raku)
+```
+PATH=~/.raku/bin:/opt/rakudo-pkg/bin:/opt/rakudo-pkg/share/perl6/site/bin:$PATH
+
+```
+
+- Para ejeutar el Akefile
+	```
+	zef install rake 
+	
+	```
+- Para instalar módulos y testear el código 
+	```
+	$ ake all
+	```
+
 
 ### Subenlaces
 - [Configuración inicial ](docs/git.md)
