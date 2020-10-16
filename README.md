@@ -40,6 +40,9 @@ Además , "efood" también realizará **operaciones de cálculo** como son el c�
 
 ## Instalación y ejecución 
 Para poder instalar , testear y ejecutar el código de este repositorio , debemos seguir los siguientes pasos :
+	- Instalar rakudo
+	- Ejecutar el Akefile 
+
 
 #### Instalación de rakudo (incluye zef) 
 ```
@@ -54,7 +57,10 @@ PATH=~/.raku/bin:/opt/rakudo-pkg/bin:/opt/rakudo-pkg/share/perl6/site/bin:$PATH
 
 ```
 
-- Para ejeutar el Akefile
+#### Ejecución del Akefile
+
+- Instalar rake 
+
 	```
 	zef install rake 
 	
@@ -62,8 +68,9 @@ PATH=~/.raku/bin:/opt/rakudo-pkg/bin:/opt/rakudo-pkg/share/perl6/site/bin:$PATH
 - Para instalar módulos y testear el código 
 	```
 	$ ake all
-	```
 
+	```
+Si visualizamos el archivo Akefile veremos que hay otras órdenes , la orden "all" se encarga de ejecutar todas las órdenes restantes del fichero.
 
 ### Subenlaces
 - [Configuración inicial ](docs/git.md)
