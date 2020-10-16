@@ -1,6 +1,6 @@
 
 
-task 'all'=>< install-module  run-test> ;
+task 'all'=>< install-module  run-test run-main> ;
 
 
 task 'install-module' ,{
@@ -12,6 +12,10 @@ task 'install-module' ,{
 task 'run-test' , {
 	shell "raku t/test.t"
 
+}
+
+task 'run-main' , {
+	shell "raku -Ilib bin/main.rakumod" 
 }
 
 
