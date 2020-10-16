@@ -41,7 +41,7 @@ Además , "efood" también realizará **operaciones de cálculo** como son el c�
 ## Instalación y ejecución 
 Para poder instalar , testear y ejecutar el código de este repositorio , debemos seguir los siguientes pasos :
 
-####Instalación de rakudo (incluye zef) 
+#### Instalación de rakudo (incluye zef) 
 ```
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 379CE192D401AB61
 $ echo "deb https://dl.bintray.com/nxadm/rakudo-pkg-debs `lsb_release -cs` main" | sudo tee -a /etc/apt/sources.list.d/rakudo-pkg.list
