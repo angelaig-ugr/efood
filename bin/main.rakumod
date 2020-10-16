@@ -1,5 +1,5 @@
 use v6.d;
-use Product ;
+use efood::Product  ;
 
 ## raku -Ilib bin/main.rakumod
 
@@ -9,14 +9,15 @@ my $product = Product.new(:name('alpro yogurt'),:category('food'),:allergens(['s
 
 
 
-my @allergens  = $product.gallergens ;
-my @supermarkets = $product.gsupermarkets ;
-my @prices = $product.gprices ;
+my @allergens  = $product.allergens ;
+my @supermarkets = $product.supermarkets ;
+my @prices = $product.prices ;
 
 say $product.name ;
 say $product.category ;
 say $product.barcode ;
 
+@prices.map: *.say;
 for @supermarkets { .say }
-@supermarkets.map: *.say;
+
 
