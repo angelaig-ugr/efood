@@ -69,6 +69,22 @@ subtest {
    
 
 }, "Attribute setting";
+subtest {
+	plan 1 ;
+	
+	my $product = Product.new(
+			name => "alpro yogur",
+			:category('food'),
+			:allergens(['soy']), 
+			:supermarkets('Mercadona','hipercor','supersol'),
+			:prices(['2','1.7']),
+			:barcode('1239483232'));
+	 is($product.cheapest-price, '1.7', "returns cheapest-price ");
+
+
+
+},"Other methods";
+
 
 # .... tests 
 
