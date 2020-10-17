@@ -2,6 +2,7 @@ use v6.d;
 
 unit module efood::Product ;
 
+
 class Product is export {
 
 	# with "." although private, accessor method created 
@@ -65,10 +66,16 @@ class Product is export {
 
 	}
 	
+	method cheapest-price (){
+		min @!prices ;
+	
+	}
 	
 
 
 
 	
 }
+
+
 
