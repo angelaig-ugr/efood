@@ -41,6 +41,11 @@ Además , "efood" también realizará **operaciones de cálculo** como son el c�
 ## Ficheros test
 - [test clase producto](https://github.com/angelaig-ugr/efood/blob/master/t/test.t)
 
+## Herramientas zef y ake
+- [Documentación ](https://github.com/angelaig-ugr/efood/edit/master/docs/herramientas.md)
+
+
+
 ## Instalación y ejecución 
 Para poder instalar , testear y ejecutar el código de este repositorio , debemos seguir los siguientes pasos :
 - Instalar rakudo
