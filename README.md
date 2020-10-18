@@ -39,7 +39,13 @@ Además , "efood" también realizará **operaciones de cálculo** como son el c�
 - [iv.yaml](https://github.com/angelaig-ugr/efood/blob/master/iv.yaml)
 
 ## Ficheros test
+ En el siguiente fichero , he incluido diversos test a mi clase "Producto" , la principal sobre la que se basa mi aplicación .
+ Dichos test , consisten en comprobar que dicha clase funciona adecuadamente, que es posible instanciar objetos de esta clase , y también
+ como en un futuro se pretende , consultar nombre, crear objetos con ciertos atributos iniciales, cambiar algún atributo , etc .
+ 
 - [test clase producto](https://github.com/angelaig-ugr/efood/blob/master/t/test.t)
+
+
 
 ## Herramientas zef y ake
 - [Documentación ](https://github.com/angelaig-ugr/efood/edit/master/docs/herramientas.md)
