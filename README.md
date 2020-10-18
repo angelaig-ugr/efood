@@ -38,10 +38,13 @@ Además , "efood" también realizará **operaciones de cálculo** como son el c�
 ## Fichero iv.yaml
 - [iv.yaml](https://github.com/angelaig-ugr/efood/blob/master/iv.yaml)
 
+## Ficheros test
+- [test](https://github.com/angelaig-ugr/efood/blob/master/t/test.t)
+
 ## Instalación y ejecución 
 Para poder instalar , testear y ejecutar el código de este repositorio , debemos seguir los siguientes pasos :
-	- Instalar rakudo
-	- Ejecutar el Akefile 
+- Instalar rakudo
+- Ejecutar el Akefile 
 
 
 #### Instalación de rakudo (incluye zef) 
