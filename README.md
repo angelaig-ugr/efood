@@ -39,7 +39,7 @@ Además , "efood" también realizará **operaciones de cálculo** como son el c�
 - [iv.yaml](https://github.com/angelaig-ugr/efood/blob/master/iv.yaml)
 
 ## Ficheros test
-- [test](https://github.com/angelaig-ugr/efood/blob/master/t/test.t)
+- [test clase producto](https://github.com/angelaig-ugr/efood/blob/master/t/test.t)
 
 ## Instalación y ejecución 
 Para poder instalar , testear y ejecutar el código de este repositorio , debemos seguir los siguientes pasos :
