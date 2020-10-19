@@ -11,7 +11,7 @@
         "efood::Product " : "lib/efood/Product.rakumod"
     },
     "depends" : [ ],
-    "build-depends" : [ ],
+    "build-depends" : ["ake"],
     "test-depends" : ["Test"],
     "resources" : [ ],
     "tags": [
