@@ -23,7 +23,7 @@ Además , "efood" también realizará **operaciones de cálculo** como son el c�
 
 - Lenguaje: Raku 
 - Bases de datos a emplear : a determinar
-- [Documentación ](https://github.com/angelaig-ugr/efood/edit/master/docs/herramientas.md)
+- [Documentación ](https://github.com/angelaig-ugr/efood/blob/master/docs/herramientas.md)
 
 
 ## Historial de issues y milestones 
