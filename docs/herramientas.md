@@ -10,4 +10,4 @@ Además , para automatizar las tareas, he escogido "ake" como gestor de tareas ,
 Este archivo es prácticamente como un Makefile, con el que estamos ya familiarizados, pero usa Raku para expresarse, por lo que me ha parecido bastante práctico elegirlo .
 
 ## Test
-He usado **Test** como biblioteca de aserciones , ya que nos proporciona un framework de tes en el que  prácticamente todas las comprobaciones que debo hacer en mi clase para testearla están implementadas , contando con un gran número de funciones .
+He usado **Test** como biblioteca de aserciones , ya que nos proporciona un framework de tes en el que  prácticamente todas las comprobaciones que debo hacer en mi clase para testearla están implementadas , contando con un gran número de funciones . 
